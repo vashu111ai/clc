@@ -20,7 +20,7 @@ def power():
     b = int(input("power value"))
     print(a**b)
 print("this is vahsu calc in python")
-c = input("what you want to do like + - * / PO")
+c = input("what you want to do like + - * / po")
 if c == "+":
     add()
 elif c == "-":
@@ -29,7 +29,7 @@ elif c == "*":
     mul()
 elif c == "/":
     div()
-elif c == "PO":
+elif c == "po":
     power()
 else:
     print("wrong input please choose between + - * / only")
